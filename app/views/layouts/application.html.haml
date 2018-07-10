@@ -1,0 +1,13 @@
+!!! html
+%html
+  %head
+    %title Jude's Site
+    =csrf_meta_tags
+    =csp_meta_tag
+
+    =stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    =javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+  %body
+    =render partial: 'layouts/nav'
+    =yield
