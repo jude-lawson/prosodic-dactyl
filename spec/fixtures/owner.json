@@ -4,6 +4,7 @@
   "email": "jnightingale@example.com",
   "phone": "555-555-5555",
   "username": "jnightingale",
+  "role": 2,
   "profile": {
     "bio": "June is especially adept at communicating with birds",
     "skills": {

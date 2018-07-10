@@ -57,4 +57,23 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  # Test setup
+  config.before :each do
+    # Create Owner
+    owner_data = JSON.parse(File.read('spec/fixtures/owner.json'))
+
+    User.create!(name: owner_data['name'],
+                 full_name: owner_data['full_name'],
+                 email: owner_data['email'],
+                 username: owner_data['username'],
+                 role: owner_data['role'])
+  end
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
 end

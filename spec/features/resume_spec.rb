@@ -9,7 +9,7 @@ RSpec.describe 'Resume Page' do
 
   describe 'A visitor visits the resume page' do
     it 'they should see the resume heading (the owner\'s name)' do
-      expect(page).to have_content(@owner.full_name)
+      expect(page).to have_content(@owner['full_name'])
     end
 
     it 'they should see a list of the owner\'s technical skills' do
