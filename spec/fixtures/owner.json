@@ -1,0 +1,54 @@
+{
+  "full_name": "June Nightingale",
+  "name": "June",
+  "email": "jnightingale@example.com",
+  "phone": "555-555-5555",
+  "username": "jnightingale",
+  "profile": {
+    "bio": "June is especially adept at communicating with birds",
+    "skills": {
+      "techinical": [
+        "Ruby",
+        "Ruby on Rails",
+        "Javascript (ES5, ES6)",
+        "Python"
+      ],
+      "soft": [
+        "Empathy",
+        "Communication",
+        "Customer Interactions"
+      ]
+    },
+    "education": [
+      "Turing School of Software & Design",
+      "Example School"
+    ],
+    "experience": [
+      {
+        "name": "Turing School of Software & Design",
+        "duration": "7 months"
+      },
+      {
+        "name": "Example Experience",
+        "duration": "10 years"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Example Project",
+        "description": "This is an example project with just a little bit of text",
+        "url": "https://github.com/jude-lawson/prosodic-dactyl"
+      },
+      {
+        "name": "Another Example Project",
+        "description": "This is an example project with just a little bit of text a moderate amount of text to check for spacing issues",
+        "url": "https://github.com/jude-lawson/prosodic-dactyl"
+      },
+      {
+        "name": "Yet Another Example Project",
+        "description": "This is an example project with just a whole lot of text to check for spacing, truncation, pagination whatever have you. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet.",
+        "url": "https://github.com/jude-lawson/prosodic-dactyl"
+      }
+    ]
+  }
+}
